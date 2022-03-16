@@ -253,9 +253,7 @@ section {
 
 .controller {
     text-align: center;
-}
-
-.controller {
+    touch-action: manipulation;
     background-color: var(--primary-4);
     border-radius: 100%;
     width: 12.5rem;
