@@ -225,6 +225,7 @@ const handleExitPressed = function(event) {
 }
 
 const handleSharePressed = function(event) {
+    event.stopPropagation();
     let board = game.board;
     let text = `FOAK #${date} \u{23F1} ${formatTime(time)} \u{1F503} ${game.moves}`;
     let state = game.state? `blk` : `red`;
@@ -358,7 +359,7 @@ const loadBoardIntoDOM = function(board) {
     const $root = $('#root');
     $($root).on("click", ".btn-menu", handleHelpPressed);
     $($root).on("click", ".btn-stats", handleStatsPressed);
-    $($root).on("click", ".btn-exit", handleExitPressed);
+    $($root).on("click", "#body", handleExitPressed);
     $($root).on("click", ".shareable", handleSharePressed);
     document.onkeydown = function(e) {
         handleKeyPressed(e)
