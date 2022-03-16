@@ -127,10 +127,11 @@ section {
     width: 1.5rem;
     height: 1.5rem;
     margin-right: .65rem;
+    text-align: center;
 }
 
-.btn-menu {
-    font-size: 1.2rem;
+.btn-menu > b {
+    font-size: 1rem;
 }
 
 .grid {
@@ -374,7 +375,7 @@ section {
         width: 2rem;
         height: 2rem;
     }
-    .btn-menu {
+    .btn-menu > b {
         font-size: 1.5rem;
     }
     .howto-display, 
