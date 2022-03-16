@@ -124,8 +124,8 @@ section {
     color: var(--primary-4);
     background-color: var(--primary-1);
     border-radius: 100%;
-    min-width: 1.5rem;
-    min-height: 1.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
     margin-right: .65rem;
 }
 
@@ -371,8 +371,8 @@ section {
     .btn-menu,
     .btn-stats {
         margin-right: 1.3rem;
-        min-width: 2rem;
-        min-height: 2rem;
+        width: 2rem;
+        height: 2rem;
     }
     .btn-menu {
         font-size: 1.5rem;
