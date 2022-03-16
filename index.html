@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Five of a Kind</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="icon" href="favicon.ico?" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico?" type="image/x-icon">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H4WL74VJ0X"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-H4WL74VJ0X');
+    </script>
+</head>
+<body>
+    <div id="root">
+        <section id="head">
+            <div class="container">
+                <div class="container--head">
+                    <div class="title">
+                        <h1 class="h1-top">Five of</h1>
+                        <h1 class="h1-bot">a Kind</h1>
+                    </div>
+                    <div class="menus">
+                        <div class="menus-left">
+                            <div class="time">
+                                <p id="time">00:00</p>
+                            </div>
+                            <div class="moves">
+                                <p id="moves">0</p>
+                            </div>
+                        </div>
+                        <div class="menus-right">
+                            <div class="howto">
+                                <button class="btn-menu" type="button"><b>?</b></button>
+                            </div>
+                            <div class="stats">
+                                <button class="btn-stats" type="button" style="background: url('./assets/stats.ico'); background-size: cover;"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="body">
+            <div class="container container--grid">
+                <div id="board" class="grid">
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                </div>
+            </div>
+        </section>
+        <section id="foot">
+            <div class="container">
+                <div class="container--foot">
+                    <!-- <div id="dialogue" class="dialogue">
+                        <p>Move tiles to make numbers in every line unique!</p>
+                    </div> -->
+                    <div id="controller"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./script.js" type="module"></script>
+</html>
